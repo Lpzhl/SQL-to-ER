@@ -2,6 +2,10 @@
 
 <div align="center">
 
+[**🇨🇳 中文**](./README.md) | [**🇺🇸 English**](./README_EN.md)
+
+---
+
 **🎉 开源免费的 ER 图生成工具 🎉**
 
 支持 SQL 语句生成 ER 图 | 支持 AI 智能生成 ER 图
@@ -45,7 +49,7 @@
 
 - **🚀 SQL 转 ER 图**：粘贴你的 SQL 建表语句，自动解析并生成专业的 ER 图
 - **🤖 AI 智能生成**：通过自然语言描述需求，AI 自动生成符合业务逻辑的 ER 图
-- **💰 完全免费**：当前仓库免费100% 开源免费，无任何使用限制
+- **💰 完全免费**：当前仓库100% 开源免费，无任何使用限制
 - **🎨 可视化编辑**：直观的图形界面，支持拖拽和自定义布局
 - **📥 多格式导出**：支持导出为图片、PDF 等多种格式
 - **⚡ 即开即用**：无需复杂配置，开箱即用
@@ -104,7 +108,7 @@
 
 ### 环境要求
 
-- Java 11+
+- Java 17+
 - Maven 3.6+
 
 ### 安装步骤
@@ -125,6 +129,34 @@ mvn spring-boot:run
 
 访问 `http://localhost:8080` 即可使用。
 
+### API 端点
+
+#### SQL 转 ER 图
+
+```bash
+POST /api/sql/parse
+Content-Type: application/json
+
+{
+  "sql": "CREATE TABLE user (id BIGINT PRIMARY KEY, name VARCHAR(50));",
+  "diagramName": "我的数据库",
+  "databaseType": "MySQL"
+}
+```
+
+#### AI 生成 ER 图
+
+```bash
+POST /api/ai/generate
+Content-Type: application/json
+
+{
+  "description": "创建一个电商系统，包含用户、订单、商品表",
+  "diagramName": "电商系统",
+  "language": "zh-CN"
+}
+```
+
 ---
 
 ## 💡 使用场景
@@ -134,6 +166,36 @@ mvn spring-boot:run
 - 👥 **团队协作**：通过图形化方式与团队沟通数据库设计
 - 🎓 **教学演示**：用于数据库课程的教学和演示
 - 🔄 **逆向工程**：从 SQL 脚本快速理解数据库结构
+
+---
+
+## 📁 项目结构
+
+```
+SQL-to-ER/
+├── src/main/java/com/example/sqltoer/
+│   ├── controller/          # REST API 控制器
+│   ├── service/             # 业务逻辑层
+│   ├── model/               # 数据模型
+│   ├── dto/                 # 数据传输对象
+│   ├── config/              # 配置类
+│   ├── util/                # 工具类
+│   └── exception/           # 异常处理
+├── src/main/resources/
+│   └── application.properties
+├── public/                  # 使用截图
+├── pom.xml
+└── README.md
+```
+
+---
+
+## 🛠️ 技术栈
+
+- **后端**: Spring Boot 4.0, Java 17
+- **构建工具**: Maven
+- **日志**: SLF4J + Logback
+- **工具库**: Lombok, Jackson
 
 ---
 
@@ -168,6 +230,12 @@ mvn spring-boot:run
 - 📮 提交 Issue
 - 📧 发送邮件
 - 💬 参与 Discussions
+
+---
+
+## 🙏 致谢
+
+感谢所有为这个项目做出贡献的开发者！
 
 ---
 
