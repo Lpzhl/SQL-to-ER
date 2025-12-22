@@ -1,5 +1,5 @@
 # SQL-to-ER
-
+SQL 建表语句转 ER 图在线工具 | AI 生成 ER 图_在线编辑_一键导出实体关系图免费在线 SQL 转 ER 图工具，支持 MySQL/Oracle/SQL Server 等主流数据库建表语句解析，自动生成可视化实体关系图。内置在线编辑功能可灵活调整 ER 图结构，支持 PNG/PDF/SVG 等格式导出，同时提供 AI 智能生成 ER 图能力，无需专业绘图技能，快速完成数据库表结构可视化与建模。
 <div align="center">
 
 [**🇨🇳 中文**](./README.md) | [**🇺🇸 English**](./README_EN.md)
