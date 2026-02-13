@@ -115,7 +115,7 @@ Simply describe your business requirements in natural language, and AI will inte
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/SQL-to-ER.git
+git clone https://github.com/Lpzhl/SQL-to-ER.git
 
 # Navigate to project directory
 cd SQL-to-ER

@@ -41,9 +41,15 @@
 
 ---
 
+## 🔑 关键词
+
+`SQL解析` `ER图生成` `数据库设计` `数据库可视化` `AI生成` `开源工具` `MySQL` `PostgreSQL` `Oracle` `数据库建模` `逆向工程` `数据字典` `数据库文档`
+
+---
+
 ## 📖 项目介绍
 
-**SQL-to-ER** 是一款完全开源免费的 ER（实体关系）图生成工具，旨在帮助开发者快速、便捷地创建和可视化数据库设计。
+**SQL-to-ER** 是一款完全开源免费的 ER（实体关系）图生成工具，旨在帮助开发者快速、便捷地创建和可视化数据库设计。通过智能 SQL 解析和 AI 驱动的图表生成，让数据库建模变得轻松高效。支持 MySQL、PostgreSQL、Oracle 等多种数据库，是数据库设计、逆向工程和文档生成的最佳工具。
 
 ### ✨ 核心特性
 
@@ -115,7 +121,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/SQL-to-ER.git
+git clone https://github.com/Lpzhl/SQL-to-ER.git
 
 # 进入项目目录
 cd SQL-to-ER

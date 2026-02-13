@@ -12,19 +12,25 @@
     <artifactId>SQL-to-ER</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SQL-to-ER</name>
-    <description>SQL-to-ER</description>
-    <url/>
+    <description>Open-source ER diagram generator supporting SQL parsing and AI-driven generation</description>
+    <url>https://github.com/Lpzhl/SQL-to-ER</url>
     <licenses>
-        <license/>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
     </licenses>
     <developers>
-        <developer/>
+        <developer>
+            <name>Your Name</name>
+            <email>your.email@example.com</email>
+        </developer>
     </developers>
     <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
+        <connection>scm:git:https://github.com/Lpzhl/SQL-to-ER.git</connection>
+        <developerConnection>scm:git:https://github.com/Lpzhl/SQL-to-ER.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/Lpzhl/SQL-to-ER</url>
     </scm>
     <properties>
         <java.version>17</java.version>
