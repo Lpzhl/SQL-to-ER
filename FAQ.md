@@ -1,4 +1,10 @@
-# 常见问题解答 | FAQ
+# SQL-to-ER 常见问题解答 | Frequently Asked Questions (FAQ)
+
+> **Meta Description:** Complete FAQ for SQL-to-ER tool. Find answers about SQL parsing, ER diagram generation, supported databases, export formats, API usage, and troubleshooting.
+
+> **Keywords (SEO):** SQL to ER FAQ, how to use SQL to ER, supported databases, ER diagram generation, database design tool, troubleshooting, API guide, export formats, SQL parser
+
+---
 
 ## 关于 SQL-to-ER | About SQL-to-ER
 
