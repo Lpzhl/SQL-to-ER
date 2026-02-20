@@ -1,10 +1,26 @@
-# API 文档 | API Documentation
+# SQL-to-ER API 文档 | API Documentation
+
+> **Page Description (SEO):** Complete REST API documentation for SQL-to-ER. Learn how to use the SQL parsing endpoint and AI diagram generation endpoint. Includes request/response examples, error codes, and best practices for integrating SQL-to-ER into your applications.
+
+> **Keywords (SEO):** SQL to ER API, REST API, API endpoint, SQL parser API, ER diagram API, database API, JSON API, API documentation, code examples, curl examples, JavaScript examples, Python examples
+
+## 📚 文档目录 | Table of Contents
+
+- [基础信息](#基础信息--base-information)
+- [端点列表](#端点--endpoints)
+  - [SQL 解析转 ER 图](#1-sql-解析转-er-图)
+  - [AI 生成 ER 图](#2-ai-生成-er-图)
+- [错误处理](#错误码--error-codes)
+- [认证](#认证--authentication)
+- [最佳实践](#最佳实践--best-practices)
 
 ## 基础信息 | Base Information
 
 - **基础 URL**: `http://localhost:8080/api`
 - **内容类型**: `application/json`
 - **字符编码**: `UTF-8`
+- **协议**: HTTP/HTTPS
+- **版本**: v1.0.0
 
 ## 端点 | Endpoints
 
